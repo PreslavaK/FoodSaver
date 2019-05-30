@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Настойки</string>
+    <string name="add">Добави</string>
+    <string name="barcode_reader">Баркод четец</string>
+    <string name="category">Категория</string>
+    <string name="expires">Изтича на:</string>
+    <string name="fact">факт</string>
+    <string name="food_name">Храна</string>
+    <string name="freezer">Фризер</string>
+    <string name="fridge">Хладилник</string>
+    <string name="home">Начало</string>
+    <string name="pantry">Шкаф</string>
+    <string name="quantity">Количество:</string>
+    <string name="save">Запази</string>
+    <string name="welcome_to_foodsaver">Добре дошли в Food Saver!</string>
+    <string name="your_panty">Твоят шкаф</string>
+    <string name="shopping_item">За пазараване</string>
+    <string name="shopping_list">Лист за пазаруване</string>
+    <string name="interesting_fact">Интересен факт:</string>
+</resources>
