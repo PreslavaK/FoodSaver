@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-public class ShoppingRepository {
+
     class ShoppingRepository {
 
         private ShoppingListDao shoppingListDao;
@@ -102,4 +102,3 @@ public class ShoppingRepository {
 
     }
 
-}
