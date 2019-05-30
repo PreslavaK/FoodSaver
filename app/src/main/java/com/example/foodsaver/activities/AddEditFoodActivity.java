@@ -136,6 +136,7 @@ public class AddEditFoodActivity extends AppCompatActivity implements DatePicker
             Toast.makeText(this, "Please fill in all the fields", Toast.LENGTH_SHORT).show();
             return;
         }
+
         Intent data = new Intent();
         data.putExtra(EXTRA_NAME, name);
         data.putExtra(EXTRA_QUANTITY, quantity);

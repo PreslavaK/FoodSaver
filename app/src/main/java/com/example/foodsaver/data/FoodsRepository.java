@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-class FoodsRepository {
+public class FoodsRepository {
     private FoodItemsDao foodItemsDao;
     private LiveData<List<FoodItems>> allFoodItems;
 

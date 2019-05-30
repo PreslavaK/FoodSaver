@@ -8,17 +8,18 @@ import androidx.lifecycle.LiveData;
 
 import com.example.foodsaver.data.FoodItems;
 import com.example.foodsaver.data.FoodItemsDao;
+import com.example.foodsaver.data.FoodsRepository;
 
 import java.util.List;
 
 public class FoodItemsViewModel extends AndroidViewModel {
 
-   private FoodItemsDao.FoodsRepository repository;
+   private  FoodsRepository repository;
    private LiveData<List<FoodItems>> allFoods;
 
    public FoodItemsViewModel(@NonNull Application application) {
         super(application);
-        repository = new FoodItemsDao.FoodsRepository(application);
+        repository = new FoodsRepository(application);
         allFoods = repository.getAllFoodItems();
     }
 
